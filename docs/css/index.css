@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body{
+    font-family: "游ゴシック体", "Yu Gothic" , YuGothic , sans-serif;
+}
+.secTit{
+    font-family: "游ゴシック体", "Yu Gothic" , YuGothic , sans-serif;
+    font-size: 35px;
+    letter-spacing: 3px;
+    padding-bottom: 40px;
+}
+.secTxt{
+    font-family: "游ゴシック体", "Yu Gothic" , YuGothic;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none
+}
+a:hover{
+    color: gray;
+}
+a:visited{
+    color: black;
+}
+
+/* 改行設定 */
+
+.brPc{
+    display: block;
+}
+.brSp{
+    display: none;
+}
+
+@media screen and (max-width:650px) {
+    .brPc{
+        display: none;
+    }
+    .brSp{
+        display: block;
+    }
+}
+
+/* ヘッダーメニュー */
+
+.headerMenu{
+    font-size: 15px;
+    background: #2a2a2a;
+    padding: 15px;
+    height: 50px;
+}
+.headerMenu a:visited{
+    color: #ffffff;
+}
+.headerMenu .secLogo{
+    float: left;
+    padding-left: 10px;
+}
+.headerMenu ul{
+    float: right;
+    padding: 10px 10px 0 0;
+}
+.headerMenu li{
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+    color: #ffffff;
+    padding-left: 25px;
+}
+
+/* メインイメージ */
+
+.mainImg{
+    background: no-repeat center 0/100% url("../img/mainImg.png");
+    background-size: 100% auto;
+    text-align: center;
+    color: #ffffff;
+}
+.mainImg .txt1{
+    padding-top: 16%;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.mainImg .txt2{
+    padding-top: 3%;
+    padding-bottom: 16%;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+/* 注文 */
+
+.secOrder{
+    text-align: center;
+    margin: 70px 0 130px 0;
+}
+.secOrder .btn{
+    margin-top: 60px;
+}
+.secOrder .btn a{
+    background: #2a2a2a;
+    padding: 25px 60px 25px 60px;
+    color: #ffffff;
+}
+
+/* 宅配 */
+
+.secDelivery{
+    text-align: center;
+    margin: 70px 0 100px 0;
+}
+
+/* 会員 */
+
+.secMember{
+    text-align: center;
+    margin: 70px 0 130px 0;
+}
+.secMember .btn{
+    margin-top: 60px;
+}
+.secMember .btn a{
+    background: #2a2a2a;
+    padding: 25px 60px 25px 60px;
+    color: #ffffff;
+}
+
+/* スライダー */
+
+.slider{
+    margin: 100px auto;
+    width: 80%;
+}
+.slider img{
+    width: 100%;
+    height: auto;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+
+/* フッター */
+
+.footer{
+    margin-top: 100px;
+    height: 300px;
+    background: #2a2a2a;
+}
