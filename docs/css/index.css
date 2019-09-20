@@ -46,11 +46,18 @@ a:visited{
 
 /* ヘッダーメニュー */
 
+.header{
+    height: 80px;
+}
+
 .headerMenu{
+    width: 100%;
+    position: fixed;
     font-size: 15px;
     background: #2a2a2a;
     padding: 15px;
     height: 50px;
+    z-index: 1;
 }
 .headerMenu a:visited{
     color: #ffffff;
@@ -61,14 +68,14 @@ a:visited{
 }
 .headerMenu ul{
     float: right;
-    padding: 10px 10px 0 0;
+    padding: 10px 20px 0 0;
 }
 .headerMenu li{
     display: inline-block;
     vertical-align: middle;
     list-style: none;
     color: #ffffff;
-    padding-left: 25px;
+    padding: 0 15px;
 }
 
 /* メインイメージ */
@@ -143,6 +150,17 @@ a:visited{
 .slick-prev:before,
 .slick-next:before {
     color: #000;
+}
+.slider .product{
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.slider .price{
+    display: inline-block;
+    padding: 0 0 40px 0;
+    font-size: 15px;
 }
 
 /* フッター */
