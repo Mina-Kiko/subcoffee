@@ -6,7 +6,13 @@ $(document).ready(function(){
         dots:true,
         slidesToShow:3,
         slidesToScroll:1,
-        dots:true
+        dots:true,
+        responsive: [{
+			breakpoint: 480,settings: {//480px以下では1画像表示
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		}]
     });
 });
 
