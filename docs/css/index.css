@@ -156,11 +156,13 @@ a:visited{
     padding: 10px 0;
     font-size: 18px;
     font-weight: bold;
+    color: #000;
 }
 .slider .price{
     display: inline-block;
     padding: 0 0 40px 0;
     font-size: 15px;
+    color: #000;
 }
 
 /* フッター */
