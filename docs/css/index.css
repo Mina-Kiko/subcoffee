@@ -25,6 +25,14 @@ a:hover{
 a:visited{
     color: black;
 }
+@media screen and (max-width:480px){
+    .secTit{
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+}
 
 /* 改行設定 */
 
@@ -77,11 +85,36 @@ a:visited{
     color: #ffffff;
     padding: 0 15px;
 }
+.menuSp{
+    display: none;
+}
+@media screen and (min-width:480px) and (max-width:1100px){
+    .headerMenu li{
+        padding: 0 7px;
+    }
+}
+@media screen and (max-width:480px){
+    .headerMenu .secLogo{
+        width: 70%;
+        padding-left: 0px;
+    }
+    .headerMenu .secLogo img{
+        width: 100%;
+    }
+    .headerMenu ul{
+        display: none;
+    }
+    .menuSp{
+        display: block;
+        float: right;
+        padding: 7px 40px 0 0;
+    }
+}
 
 /* メインイメージ */
 
 .mainImg{
-    background: no-repeat center 0/100% url("../img/mainImg.png");
+    background: no-repeat center top 0/100% url("../img/mainImg.png");
     background-size: 100% auto;
     text-align: center;
     color: #ffffff;
@@ -99,6 +132,17 @@ a:visited{
     font-weight: bold;
     letter-spacing: 5px;
 }
+@media screen and (max-width:480px){
+    .mainImg .txt1{
+        padding-top: 11%;
+        font-size: 30px;
+    }
+    .mainImg .txt2{
+        padding-top: 3%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
 
 /* 注文 */
 
@@ -114,12 +158,22 @@ a:visited{
     padding: 25px 60px 25px 60px;
     color: #ffffff;
 }
+@media screen and (max-width:480px){
+    .secOrder{
+        margin: 10px 0 0 0;
+    }
+}
 
 /* 宅配 */
 
 .secDelivery{
     text-align: center;
     margin: 70px 0 100px 0;
+}
+@media screen and (max-width:480px){
+    .secDelivery{
+        margin: 70px 0 0 0; 
+    }
 }
 
 /* 会員 */
@@ -135,6 +189,11 @@ a:visited{
     background: #2a2a2a;
     padding: 25px 60px 25px 60px;
     color: #ffffff;
+}
+@media screen and (max-width:480px){
+    .secMember{
+        margin: 50px 0 0 0; 
+    }
 }
 
 /* スライダー */
