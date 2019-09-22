@@ -25,10 +25,12 @@ a:hover{
 a:visited{
     color: black;
 }
+.secTit{
+    font-weight: bold;
+}
 @media screen and (max-width:480px){
     .secTit{
         font-size: 25px;
-        font-weight: bold;
         line-height: 40px;
         padding-bottom: 20px;
     }
@@ -228,6 +230,12 @@ a:visited{
         margin: 100px auto;
         width: 80%;
     }
+}
+
+/* アプリ */
+.secApp{
+    text-align: center;
+    margin: 70px 0 100px 0;
 }
 
 /* フッター */
