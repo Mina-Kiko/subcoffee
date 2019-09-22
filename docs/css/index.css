@@ -34,6 +34,9 @@ a:visited{
         line-height: 40px;
         padding-bottom: 20px;
     }
+    .secTxt{
+        font-size: 15px;
+    }
 }
 
 /* 改行設定 */
@@ -135,6 +138,11 @@ a:visited{
     letter-spacing: 5px;
 }
 @media screen and (max-width:480px){
+    .mainImg{
+        background: no-repeat center top 0/100% url("../img/mainImg_sp.png");
+        background-size: 100% auto;
+        height: 550px;
+    }
     .mainImg .txt1{
         padding-top: 11%;
         font-size: 30px;
