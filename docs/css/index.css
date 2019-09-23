@@ -143,8 +143,12 @@ a:visited{
     bottom: 40px;
     right: 20px;
 }
-.secApp1 img{
+.secApp1 .app1 img{
     width: 150px;
+    height: auto;
+}
+.secApp1 .app2 img{
+    width: 185px;
     height: auto;
 }
 @media screen and (max-width:480px){
@@ -166,7 +170,12 @@ a:visited{
     .secApp1{
         position: unset;
     }
-    .secApp1 img{
+    .secApp1 .app1 img{
+        width: 50%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .secApp1 .app2 img{
         width: 50%;
         height: auto;
     }
