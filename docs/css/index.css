@@ -119,6 +119,7 @@ a:visited{
 /* メインイメージ */
 
 .mainImg{
+    position: relative;
     background: no-repeat center top 0/100% url("../img/mainImg.png");
     background-size: 100% auto;
     text-align: center;
@@ -137,20 +138,37 @@ a:visited{
     font-weight: bold;
     letter-spacing: 5px;
 }
+.secApp1{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+.secApp1 img{
+    width: 150px;
+    height: auto;
+}
 @media screen and (max-width:480px){
     .mainImg{
         background: no-repeat center top 0/100% url("../img/mainImg_sp.png");
-        background-size: 100% auto;
-        height: 550px;
+        background-size: auto;
+        height: 500px;
     }
     .mainImg .txt1{
-        padding-top: 11%;
+        padding-top: 60px;
         font-size: 30px;
     }
     .mainImg .txt2{
         padding-top: 3%;
+        padding-bottom: 170px;
         font-size: 20px;
         line-height: 25px;
+    }
+    .secApp1{
+        position: unset;
+    }
+    .secApp1 img{
+        width: 50%;
+        height: auto;
     }
 }
 
@@ -241,9 +259,15 @@ a:visited{
 }
 
 /* アプリ */
-.secApp{
-    text-align: center;
-    margin: 70px 0 100px 0;
+.secApp2{
+    display: none;
+}
+@media screen and (max-width:480px){
+    .secApp2{
+        display: block;
+        text-align: center;
+        margin: 70px 0 100px 0;
+    }
 }
 
 /* フッター */
